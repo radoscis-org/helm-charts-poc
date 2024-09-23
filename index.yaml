@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  httpbin:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-23T14:15:54.959341803Z"
+    description: A Helm chart for Kubernetes
+    digest: 734985798d4265c14bab91f2818f2585f726e58995606ae730e256baa0719779
+    name: httpbin
+    type: application
+    urls:
+    - https://github.com/radoscis-org/helm-charts-poc/releases/download/httpbin-1.0.0/httpbin-1.0.0.tgz
+    version: 1.0.0
   roadrunner:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -22,4 +33,4 @@ entries:
     urls:
     - https://github.com/radoscis-org/helm-charts-poc/releases/download/roadrunner-poc-1.0.0/roadrunner-poc-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-23T11:09:16.561959705Z"
+generated: "2024-09-23T14:15:54.959347623Z"
