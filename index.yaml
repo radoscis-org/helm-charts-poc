@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/radoscis-org/helm-charts-poc/releases/download/roadrunner-1.0.0/roadrunner-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-20T10:45:25.982088353Z"
+  roadrunner-poc:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-23T11:09:16.561949445Z"
+    description: A Helm chart for Kubernetes
+    digest: 5da76b5c7f5a30eb03f63df7b028c88edee1038b20d0708bfdc5ac37bc8355e8
+    name: roadrunner-poc
+    type: application
+    urls:
+    - https://github.com/radoscis-org/helm-charts-poc/releases/download/roadrunner-poc-1.0.0/roadrunner-poc-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-09-23T11:09:16.561959705Z"
