@@ -1,0 +1,5 @@
+image: 
+  repository: kennethreitz/httpbin
+  tag: latest
+labels:
+  env: dev
