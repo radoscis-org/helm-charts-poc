@@ -8,6 +8,6 @@ affinity:
     requiredDuringSchedulingIgnoredDuringExecution:
       nodeSelectorTerms:
       - key: agentpool
-        operator: Equal
+        operator: Equals
         values:
         - linux01
