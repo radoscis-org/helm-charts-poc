@@ -3,6 +3,16 @@ entries:
   httpbin:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-24T07:32:53.924057661Z"
+    description: A Helm chart for Kubernetes
+    digest: ffa99604c9c40aaa5b146cdcfe8a5c0e8c88e2926208f0306526507c77f04e1b
+    name: httpbin
+    type: application
+    urls:
+    - https://github.com/radoscis-org/helm-charts-poc/releases/download/httpbin-1.1.1/httpbin-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-24T07:11:48.351023212Z"
     description: A Helm chart for Kubernetes
     digest: 3a09d6bd9925902084503e292de7d8cbc77b8cb7a9e9c1c939841cdea20ce880
@@ -35,6 +45,16 @@ entries:
   roadrunner-poc:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-24T07:32:54.041375378Z"
+    description: A Helm chart for Kubernetes
+    digest: 9450a7a730d3949b88e2fe77ce9f1911927cb95cea3f0fafc9c42d63e7cda69c
+    name: roadrunner-poc
+    type: application
+    urls:
+    - https://github.com/radoscis-org/helm-charts-poc/releases/download/roadrunner-poc-1.1.1/roadrunner-poc-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-24T07:11:48.467413153Z"
     description: A Helm chart for Kubernetes
     digest: 5d49dca1f2828fe778615d572b29e2d38657c89ffd05ea8788c02c8bd41868f5
@@ -53,4 +73,4 @@ entries:
     urls:
     - https://github.com/radoscis-org/helm-charts-poc/releases/download/roadrunner-poc-1.0.0/roadrunner-poc-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-24T07:11:48.467424544Z"
+generated: "2024-09-24T07:32:54.0414139Z"
