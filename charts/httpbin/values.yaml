@@ -7,7 +7,8 @@ affinity:
   nodeAffinity:
     requiredDuringSchedulingIgnoredDuringExecution:
       nodeSelectorTerms:
-      - key: agentpool
-        operator: Equals
-        values:
-        - linux01
+        - matchExpressions:
+          - key: agentpool
+            operator: In
+            values:
+            - linux01
