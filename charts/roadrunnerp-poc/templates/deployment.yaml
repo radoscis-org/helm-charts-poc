@@ -18,6 +18,10 @@ spec:
         app: roadrunner
         {{- .Values.labels | toYaml | nindent 8 }}
     spec:
+      {{- if .Values.affinity }}
+      affinity:
+      {{- .Values.affinity | toYaml | nindent 8}}  
+      {{- end }}
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         name: roadrunner

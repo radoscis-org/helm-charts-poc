@@ -3,3 +3,11 @@ image:
   tag: latest
 labels:
   env: dev
+affinity:
+  nodeAffinity:
+    requiredDuringSchedulingIgnoredDuringExecution:
+      nodeSelectorTerms:
+      - key: agentpool
+        operator: Equal
+        values:
+        - linux01
